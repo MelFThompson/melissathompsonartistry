@@ -1,0 +1,11 @@
+body {
+    color: rgb(255, 255, 255); 
+    background-color: rgba(11, 37, 66);
+    font-family: system-ui, sans-serif;
+    background: linear-gradient(to bottom,
+    #0b2542,
+    darken(#0b2542, 15%)
+  );
+}
+
+  
