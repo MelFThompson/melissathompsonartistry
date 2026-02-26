@@ -1,6 +1,6 @@
 body {
     color: rgb(255, 255, 255); 
-    background-color: rgba(11, 37, 66);
+    background-color: rgb(2, 15, 30);
     font-family: system-ui, sans-serif;
     background: linear-gradient(to bottom,
     #0b2542,
@@ -8,4 +8,7 @@ body {
   );
 }
 
-  
+div.content-spread {
+  display: flex;
+  justify-content: space-evenly;
+}
