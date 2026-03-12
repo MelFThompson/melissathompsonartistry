@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 body {
     color: rgb(255, 255, 255); 
     background-color: rgb(3, 20, 40);
@@ -34,15 +38,15 @@ div.center-phrase {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 3rem;
   font-family: "Poiret One";
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2rem;
   font-family: "Poiret One";
 }
 
-p {
+p, em, strong {
   font-family: "Quicksand";
 }
