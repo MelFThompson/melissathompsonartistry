@@ -37,11 +37,6 @@ div.center-phrase {
   justify-content: center;
 }
 
-title {
-  font-family: "Poiret One";
-  font-size: 3rem;
-}
-
 h1 {
   font-family: "Poiret One";
   font-size: 5rem;
@@ -54,4 +49,8 @@ h2 {
 
 p, em, strong {
   font-family: "Quicksand";
+}
+
+.title-block {
+  font-size: 2em;
 }
