@@ -14,9 +14,11 @@ body {
   font-style: normal;
 }
 
-.numans-regular {
-  font-family: "Numans", sans-serif;
-  font-weight: 400;
+
+.quicksand-paragraph {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -42,5 +44,5 @@ h2 {
 }
 
 p {
-  font-family: "Numans";
+  font-family: "Quicksand";
 }
