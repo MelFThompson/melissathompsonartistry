@@ -1,11 +1,23 @@
 body {
     color: rgb(255, 255, 255); 
     background-color: rgb(3, 20, 40);
-    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-family: Verdana, sans-serif, sans-serif;
     background: linear-gradient(to bottom,
     rgb(3, 20, 40),
     darken(rgb(3, 20, 40), 15%)
   );
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.numans-regular {
+  font-family: "Numans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 div.content-spread {
@@ -21,8 +33,14 @@ div.center-phrase {
 
 h1 {
   font-size: 1.5em;
+  font-family: "Poiret One";
 }
 
 h2 {
   font-size: 1.5em;
+  font-family: "Poiret One";
+}
+
+p {
+  font-family: "Numans";
 }
