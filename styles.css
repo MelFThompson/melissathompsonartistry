@@ -1,3 +1,4 @@
+/* Structure */
 html {
   font-size: 16px;
 }
@@ -12,20 +13,6 @@ body {
   );
 }
 
-.poiret-one-regular {
-  font-family: "Poiret One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-.quicksand-paragraph {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
 div.content-spread {
   display: flex;
   justify-content: space-evenly;
@@ -37,6 +24,21 @@ div.center-phrase {
   justify-content: center;
 }
 
+/* Fonts */
+.quicksand-paragraph {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Text attributes */
 h1 {
   font-family: "Poiret One";
   font-size: 5rem;
