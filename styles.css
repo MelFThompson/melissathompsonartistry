@@ -24,6 +24,11 @@ div.center-phrase {
   justify-content: center;
 }
 
+div.banner {
+  position: relative;
+  text-align: center;
+}
+
 /* Fonts */
 .quicksand-paragraph {
   font-family: "Quicksand", sans-serif;
