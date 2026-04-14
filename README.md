@@ -1,2 +1,3 @@
 # melissathompsonartistry
-Melissa Thompson's artist portfolio website.
+Melissa Thompson's theatre artist portfolio website.
+https://melissathompsonartistry.me/
