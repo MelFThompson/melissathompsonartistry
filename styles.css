@@ -75,6 +75,11 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-family: "Poiret One";
+  font-size: 1.5rem;
+}
+
 p, em, strong {
   font-family: "Quicksand";
 }
