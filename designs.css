@@ -1,0 +1,11 @@
+
+  .column {
+    display: flex;
+    flex-direction: row; /* Stack items top-to-bottom */
+    flex-wrap: wrap;       /* Wrap items into new columns */
+    width: 50%;         /* Required for column wrapping */
+  }
+  
+  .item {
+    height: 50%;          /* Forces 2 columns because 50% * 3 > 100% */
+  }

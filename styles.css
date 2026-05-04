@@ -50,6 +50,72 @@ div.container{
   padding-right: 5%;
 }
 
+div.image-text{
+  padding-top: 20%;
+  padding-left: 10%;
+}
+
+div.image-top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+/* Image Carosel (Credit: W3Schools) */
+* {box-sizing:border-box}
+
+.carosel-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+mySlides { /* Hide images by default */
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext{
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
 /* Fonts */
 .quicksand-paragraph {
   font-family: "Quicksand", sans-serif;
@@ -82,5 +148,14 @@ h3 {
 
 p, em, strong {
   font-family: "Quicksand";
+}
+
+/*Designs Page*/
+.column {
+  display: flex;
+  flex-direction: column; /* Stack items top-to-bottom */
+  flex-wrap: wrap;       /* Wrap items into new columns */
+  width: 1000px;         /* Required for column wrapping */
+  height: 1200px;
 }
 
