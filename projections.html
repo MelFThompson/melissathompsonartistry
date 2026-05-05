@@ -13,7 +13,7 @@
     <div class="vert-spread">
     <!-- Top Ribbon -->
         <div class="banner">
-            <img src="./images/Portraits/liad1banner.jpg" alt="Melissa" height="500">
+            <img src="./images/Portraits/liad1banner.jpg" alt="Melissa" style="width:100%">
             <div class="center-float">
                 <h1>Projection</h1>
                 <h1>Design</h1>
@@ -27,25 +27,31 @@
                 <div class="carosel-container">
 
                     <!-- Full-width images with number and caption text -->
-                    <div class="mySlides fade">
-                    <img src="./images/Projections/DG-Bar.jpg" style="width:100%">
+                    <div class="mySlides1 fade">
+                        <img src="./images/Projections/DG-Bar.jpg" style="width:100%">
                     </div>
-                
-                    <div class="mySlides fade">
-                    <img src="./images/Projections/DG-Stargazing.jpg" style="width:100%">
+                    <div class="mySlides1 fade">
+                        <img src="./images/Projections/DG-Stargazing.jpg" style="width:100%">
                     </div>
-                
-                    <div class="mySlides fade">
-                    <img src="./images/Projections/DG-Explosion.jpg" style="width:100%">
+                    <div class="mySlides1 fade">
+                        <img src="./images/Projections/DG-Explosion.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides1 fade">
+                        <img src="./images/Projections/DG-Bar-Counter.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides1 fade">
+                        <img src="./images/Projections/DG-Cooler-1.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides1 fade">
+                        <img src="./images/Projections/DG-Cooler-2.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides1 fade">
+                        <img src="./images/Projections/DG-Floor-Time.jpg" style="width:100%">
                     </div>
 
-                    <div class="mySlides fade">
-                    <img src="./images/Projections/DG-Donna.jpg" style="width:100%">
-                    </div>
-                
                     <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
                 </div>
                 <br>
                 
@@ -55,6 +61,8 @@
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
                     <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
                 </div>
                 <div class="image-top">
                     <img src="./images/Projections/DG-Stargazing.jpg" alt="Dancers" width="400">
@@ -71,47 +79,112 @@
             </div>
         </div>
         
+        <div class="column">
+            <div>
+                <h2>The Little Prince</h2>
+                <!-- Slideshow container -->
+                <div class="carosel-container">
 
-        <div class="content-spread">
-            <div class="container">
-                <h2>Projection Design</h2>
-                <p>Nothing excites Melissa more than designing projections to accompany a play or performance to music.</p>
-                <a href="https://melissathompsonartistry.me/">See More Designs</a>
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides2 fade">
+                        <img src="./images/Projections/LP-Space-Wide.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides2 fade">
+                        <img src="./images/Projections/LP-Sunset-Wide.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides2 fade">
+                        <img src="./images/Projections/LP-Daytime.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides2 fade">
+                        <img src="./images/Projections/LP-Sheep.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides2 fade">
+                        <img src="./images/Projections/LP-Well.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides2 fade">
+                        <img src="./images/Projections/LP-Businessman.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides2 fade">
+                        <img src="./images/Projections/LP-King.jpg" style="width:100%">
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
+                <div class="image-top">
+                    <img src="./images/Projections/LP-Sunset-Wide.jpg" alt="Dancers" width="400">
+                    <img src="./images/Projections/LP-Space-Close.jpg" alt="Dancers" width="200">
+                </div>
             </div>
-            <div class="container">
-                <img src="./images/Projections/DG-Stargazing.jpg" alt="Actors and Projections" height="400">
+            <div class="image-text">
+                <div>
+                    <p>Author: Antoine de Saint-Exupéry</p>
+                    <p>Adapted By: John Scoullar</p>
+                    <p>Director: Ethan Koerner</p>
+                    <p>Scenic Designer: Melissa Thompson</p>
+                </div>
+                <img src="./images/Projections/LP-Sunset-Close.jpg" alt="Dancers" width="250">
             </div>
         </div>
-        <div class="content-spread">
-            <div class="container">
-                <img src="./images/Sound/ONS Aurora Scene.jpg" alt="Melissa" height="400">
+
+        <div class="column">
+            <div>
+                <h2>Even Though I Know</h2>
+                <!-- Slideshow container -->
+                <div class="carosel-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides3 fade">
+                        <img src="./images/Projections/Unlabeled-2.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides3 fade">
+                        <img src="./images/Projections/Unlabeled-Gavin.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides3 fade">
+                        <img src="./images/Projections/Unlabeled-Ailee.jpg" style="width:100%">
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                <div class="image-top">
+                    <img src="./images/Projections/Unlabeled-Alyssa.jpg" alt="Dancers" width="400">
+                    <img src="./images/Projections/Unlabeled-Holly.jpg" alt="Dancers" width="200">
+                </div>
             </div>
-            <div class="container">
-                <h2>Sound Design</h2>
-                <p>Melissa's first experience in theatrical design was designing sound for the imaginitive children's shows at her college's theater.</p>
-                <a href="https://melissathompsonartistry.me/">See More Designs</a>
+            <div class="image-text">
+                <div>
+                    <p>Devised By: Drew Schmidt</p>
+                    <p>Director: Drew Schmidt</p>
+                    <p>Scenic Designer: Ethan Koerner</p>
+                </div>
+                <img src="./images/Projections/Unlabeled-1.jpg" alt="Dancers" width="250">
             </div>
         </div>
-        <div class="content-spread">
-            <div class="container">
-                <h2>Projection Design</h2>
-                <p>Nothing excites Melissa more than designing projections to accompany a play or performance to music.</p>
-                <a href="https://melissathompsonartistry.me/">See More Designs</a>
-            </div>
-            <div class="container">
-                <img src="./images/Projections/DG-Stargazing.jpg" alt="Actors and Projections" height="400">
-            </div>
-        </div>
-        <div class="content-spread">
-            <div class="container">
-                <img src="./images/Sound/ONS Aurora Scene.jpg" alt="Melissa" height="400">
-            </div>
-            <div class="container">
-                <h2>Sound Design</h2>
-                <p>Melissa's first experience in theatrical design was designing sound for the imaginitive children's shows at her college's theater.</p>
-                <a href="https://melissathompsonartistry.me/">See More Designs</a>
-            </div>
-        </div>
+
+
         <!-- Discover More Section -->
         <div>
             <div class="center-phrase">
