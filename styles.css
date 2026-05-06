@@ -78,6 +78,21 @@ div.image-top{
   display: none;
 }
 
+/* Buttons */
+.button {
+  border: none;
+  border-radius: 20%;
+  background-color: rgba(9, 9, 70, 0.8);
+  color: white;
+  padding: 6px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(9, 9, 70);
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
