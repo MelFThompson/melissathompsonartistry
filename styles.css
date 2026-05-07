@@ -4,8 +4,9 @@ html {
 }
 
 body {
-    color: rgb(255, 255, 255); 
-    background-color: rgb(0, 0, 11);
+    color: rgb(192, 191, 191); 
+    background-image: linear-gradient(to bottom, rgb(10, 10, 37) 15%, rgb(0, 0, 11) 20%);
+    /*background-color: rgb(0, 0, 11);*/
     font-family: Verdana, sans-serif, sans-serif;
     display: flex;
 }
@@ -30,6 +31,7 @@ div.center-phrase {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10%, 10%, 0, 10%;
 }
 
 div.banner {
@@ -84,7 +86,8 @@ div.image-top{
   border-radius: 20%;
   background-color: rgba(9, 9, 70, 0.8);
   color: white;
-  padding: 6px;
+  padding: 16px;
+  margin: 20px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -178,6 +181,13 @@ h3 {
   font-size: 1.5rem;
 }
 
+.attn {
+  font-family: "Quicksand";
+  font-size: 1.75rem;
+  color: rgb(126, 126, 187);
+  font-style: normal;
+}
+
 p, em, strong {
   font-family: "Quicksand";
 }
@@ -188,6 +198,5 @@ p, em, strong {
   flex-direction: column; /* Stack items top-to-bottom */
   flex-wrap: wrap;       /* Wrap items into new columns */
   width: 1000px;         /* Required for column wrapping */
-  height: 1200px;
+  height: 900px;
 }
-
